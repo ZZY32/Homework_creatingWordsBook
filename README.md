@@ -1,2 +1,7 @@
-# Homework_creatingWordsBook
-该项目是清华大学计算机系2022年暑陪python作业单词本生成，基于python的translate库实现
+这是一个依赖于<b>python</b>的<b>translate库</b>的项目，用于生成<b>单词表</b>以及对应的<b>翻译表</b>
+
+该项目可一次性生成<b>指定数目</b>的<b>不完全相同</b>的包含<b>指定数目</b>单词的单词表及其翻译表
+
+生成的单词表名称为<b>words_{index}.txt</b>，其中<b>index</b>表示该单词表的序号，依次为1、2、3...  生成的翻译表名称为<b>translation_{index}.txt</b>，其中<b>index</b>表示该翻译表的序号，依次为1、2、3...  序号相同的单词表和翻译表相互对应
+
+翻译过程耗时较长
