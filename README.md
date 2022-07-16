@@ -1,0 +1,2 @@
+# Homework_creatingWordsBook
+该项目是清华大学计算机系2022年暑陪python作业单词本生成，基于python的translate库实现
