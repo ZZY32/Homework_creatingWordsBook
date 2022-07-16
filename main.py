@@ -60,10 +60,10 @@ if args.begin == -1 and args.end == -1:
 
 #如果指定了单词范围
 if args.begin != -1 and args.end != -1:
+    part_of_result = result[args.begin:args.end+1]
     while args.number > 0:
-        shuffle(result)
+        shuffle(part_of_result)
         words_count = 0
-        part_of_result = result[args.begin:args.end+1]
         with open(f'words_{index}.txt','w') as file_1:
             for words in part_of_result:
                 if words_count < args.size:
